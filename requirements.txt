@@ -1,0 +1,7 @@
+discord.py>=2.3.2
+ccxt>=4.2.0
+aiohttp>=3.9.0
+python-dotenv>=1.0.0
+mplfinance>=0.12.10b0
+pandas>=2.0.0
+matplotlib>=3.7.0

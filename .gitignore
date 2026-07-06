@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+*.db
+*.sqlite3
+data/*.db
+tyr_pricebot.db
+.venv/
+venv/
+env/
+*.log
+_run.log
+
+# Editor / tooling
+.claude/
+.vscode/
+.idea/
