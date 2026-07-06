@@ -1,8 +1,8 @@
-# Tyr-PriceBot 🐉
+# MarketEye 🐉
 
-A Discord **crypto price bot** — a modernized clone of the reference "Tyr-PriceBot".
-It pulls **live data from 100+ exchanges** (via [CCXT](https://github.com/ccxt/ccxt))
-and coin metadata from **CoinGecko**, and posts rich embeds + candlestick charts.
+A Discord **crypto price bot** that pulls **live data from 100+ exchanges**
+(via [CCXT](https://github.com/ccxt/ccxt)) and coin metadata from **CoinGecko**,
+and posts rich embeds, candlestick charts, and price alerts.
 
 ## Features
 
@@ -18,7 +18,31 @@ and coin metadata from **CoinGecko**, and posts rich embeds + candlestick charts
 | `/help` | Show all commands |
 
 Every command works as a **slash command** *and* with the classic **`!` prefix**
-(`!price`, `!chart 10`, `!about`, `!add`, ...), just like the original.
+(`!price`, `!chart 10`, `!about`, `!add`, ...).
+
+---
+
+## Demo
+
+**`!chart` — live candlestick chart (any pair, any timeframe):**
+
+![Chart command](screenshots/1.png)
+
+**`!price` — real-time price, volume and 24h high/low:**
+
+![Price command](screenshots/2.png)
+
+**`!alert` — get pinged when a coin crosses your target price:**
+
+![Alert command](screenshots/3.png)
+
+**`!about` — coin metadata (name, supply, market cap):**
+
+![About command](screenshots/4.png)
+
+**`!add` — interactive setup wizard (buttons & modals):**
+
+![Setup wizard](screenshots/5.png)
 
 ---
 

@@ -8,7 +8,7 @@ import config
 
 def build_help_embed(prefix: str) -> discord.Embed:
     embed = discord.Embed(
-        title="Tyr-PriceBot — Commands",
+        title="MarketEye — Commands",
         description="Use slash commands (`/`) or the classic prefix. Both work.",
         color=config.COLOR_INFO,
     )

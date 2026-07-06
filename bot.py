@@ -1,4 +1,4 @@
-"""Tyr-PriceBot — entry point.
+"""MarketEye — entry point.
 
 Loads config, initializes the database, registers all cogs, syncs slash
 commands and starts the bot.
@@ -19,7 +19,7 @@ logging.basicConfig(
     format="%(asctime)s  %(levelname)-7s  %(name)s: %(message)s",
     datefmt="%H:%M:%S",
 )
-log = logging.getLogger("tyr")
+log = logging.getLogger("marketeye")
 
 COGS = [
     "cogs.general",
@@ -32,7 +32,7 @@ COGS = [
 ]
 
 
-class TyrBot(commands.Bot):
+class MarketEyeBot(commands.Bot):
     def __init__(self):
         intents = discord.Intents.default()
         intents.message_content = True  # needed for the "!" prefix commands
@@ -76,7 +76,7 @@ class TyrBot(commands.Bot):
 async def main():
     config.validate()
     db.init()
-    bot = TyrBot()
+    bot = MarketEyeBot()
     async with bot:
         await bot.start(config.DISCORD_TOKEN)
 

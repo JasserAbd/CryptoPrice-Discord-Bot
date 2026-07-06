@@ -86,8 +86,8 @@ class SetupView(discord.ui.View):
 
 def build_welcome_embed(guild_name: str, logo_url: str) -> discord.Embed:
     embed = discord.Embed(
-        title="Tyr-PriceBot",
-        description=f"Welcome to Tyr-PriceBot. Configure **{guild_name}** below.",
+        title="MarketEye",
+        description=f"Welcome to MarketEye. Configure **{guild_name}** below.",
         color=config.COLOR_INFO,
     )
     if logo_url:

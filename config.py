@@ -17,7 +17,7 @@ DEFAULT_QUOTE = os.getenv("DEFAULT_QUOTE", "USDT").strip().upper() or "USDT"
 COINGECKO_API_KEY = os.getenv("COINGECKO_API_KEY", "").strip()
 
 # --- Storage ---
-DB_PATH = os.getenv("DB_PATH", "tyr_pricebot.db").strip() or "tyr_pricebot.db"
+DB_PATH = os.getenv("DB_PATH", "marketeye.db").strip() or "marketeye.db"
 
 # --- Branding ---
 # Fallback logo shown in embeds when a server hasn't set its own.
@@ -26,7 +26,7 @@ DEFAULT_LOGO_URL = os.getenv(
     "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
 ).strip()
 
-FOOTER_TEXT = os.getenv("FOOTER_TEXT", "Powered by Tyr").strip()
+FOOTER_TEXT = os.getenv("FOOTER_TEXT", "Powered by MarketEye").strip()
 
 # Embed accent colors (integers). Matches the green/blue/purple bars in the reference bot.
 COLOR_PRICE = 0x2ECC71   # green
