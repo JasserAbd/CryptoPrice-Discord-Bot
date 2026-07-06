@@ -34,7 +34,7 @@ python --version
 ```
 
 ### 2. Install dependencies
-From this folder (`C:\Users\LENOVO\Desktop\bot`):
+From the project folder:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
